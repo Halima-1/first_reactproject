@@ -1,0 +1,16 @@
+
+.quick-link a{
+    font-style: none;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 10px;
+  }
+  .foot{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    background-color: black;
+  } 
+  .quick-link li{
+    display: inline;
+  }

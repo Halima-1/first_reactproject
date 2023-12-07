@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#contact{
+    width: 90%;
+    background-color: rgb(248, 205, 205);
+    padding: 30px;
+    display: flex;
+    margin:50px auto;
+    background-image: url(../../assets/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.medias{
+    background-image: url(../../assets/background3.png);
+    background-repeat: no-repeat;
+    width: 38%;
+    margin-top: 150px;
+    
+}
+.links{
+    margin-top: 70px;
+    text-align: end;
+}
+.contact{
+    width: 50%;
+    background-color: rgba(114, 111, 111, 0.4);
+    display: block;
+    padding: 20px;
+    border: none;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+.contact input{
+    width: 100%;
+    padding: 15px 10px;
+    background-color: rgb(236, 237, 238);
+    margin-top: 15px;
+    border: none;
+
+}
+input :hover{
+    border: none;
+}
+.btn3{
+    width: 100%;
+    padding: 15px 10px;
+    background-color: rgb(45, 25, 221);
+    margin-top: 15px;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.contact textarea {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+
+}

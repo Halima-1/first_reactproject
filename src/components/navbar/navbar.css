@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(231, 230, 229);
+    /* position: fixed;
+    width: 100%;
+    top: 0; */
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+/* .logo >:nth-child(1){
+
+} */
+.logo >:nth-child(2){
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 25px;
+}
+.logo >:nth-child(2) :hover{
+    border: none;
+}
+nav > .nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav > .nav >li >a{
+    margin: 10px ;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 15px;
+    text-transform: capitalize;
+
+}
+.nav >li :hover{
+    background-color: aqua;
+    border-radius: 10px;
+    padding:4px 0;
+
+}
+nav > .sign-in{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    margin-left: 15px;
+    text-transform: capitalize;
+
+}
+nav > .sign-in >li >a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.sign-in> :nth-child(1) :hover{
+    background-color: rgb(187, 148, 238);
+    border-radius: 10px;
+    padding:4px 0;
+
+
+}
+.sign-in :nth-child(2){
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 4px 0;
+}
+/* .sign-in :nth-child(2) :hover{
+    background-color: rgb(187, 148, 238);
+    border-radius: 20px;
+    padding:2px 20px;
+} */
